@@ -1,7 +1,7 @@
 import Foundation
 
 /// 출력 그래프에서의 GraphViz "에지" (화살표)를 정의합니다.
-public struct SwitGrapherArrow: Hashable {
+public struct SwitGrapArrow: Hashable {
 
     /// 에지가 시작하는 그래프 노드의 이름입니다.
     public let origin: String
