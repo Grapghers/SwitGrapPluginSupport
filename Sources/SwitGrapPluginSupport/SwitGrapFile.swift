@@ -1,11 +1,12 @@
 import Foundation
 
 /// 주 프로젝트 대상 또는 SPM 패키지에서 나온 소스 파일을 설명합니다.
-public struct SwitGrapherFile {
+public struct SwitGrapFile {
 
     /// 파일의 원본을 설명합니다.
     public enum Origin {
-        /// 파일은 xcgrapher 실행 파일의 주 타겟에서 비롯되었습니다.
+        
+        /// 파일은 switGrap 실행 파일의 주 타겟에서 비롯되었습니다.
         case target(name: String)
 
         /// 파일은 `importName`이라는 Swift 패키지 모듈에서 왔습니다.
