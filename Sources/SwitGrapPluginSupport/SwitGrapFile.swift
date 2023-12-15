@@ -1,7 +1,7 @@
 import Foundation
 
 /// 주 프로젝트 대상 또는 SPM 패키지에서 나온 소스 파일을 설명합니다.
-public struct SwitGrapherFile {
+public struct SwitGrapFile {
 
     /// 파일의 원본을 설명합니다.
     public enum Origin {
