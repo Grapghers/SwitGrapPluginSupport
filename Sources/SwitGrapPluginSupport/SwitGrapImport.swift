@@ -1,23 +1,23 @@
 import Foundation
 
 /// `import X`를 설명합니다.
-public struct SwitGrapherImport {
+public struct SwitGrapImport {
 
     /// 가져온 모듈의 유형입니다.
     public enum ModuleType {
         /// 모듈은 --target 인자의 주 타겟입니다.
         case target
 
-        /// 모듈 `SwitGrapherImport.name`은 Apple 프레임워크입니다.
+        /// 모듈 `SwitGrapImport.name`은 Apple 프레임워크입니다.
         case apple
 
-        /// 모듈 `SwitGrapherImport.name`은 Cocoapods 프레임워크입니다.
+        /// 모듈 `SwitGrapImport.name`은 Cocoapods 프레임워크입니다.
         case cocoapods
 
-        /// 모듈 `SwitGrapherImport.name`은 Swift Package Manager 프레임워크입니다.
+        /// 모듈 `SwitGrapImport.name`은 Swift Package Manager 프레임워크입니다.
         case spm
 
-        /// 모듈 `SwitGrapherImport.name`이 어디서 비롯된 것인지 결정할 수 없습니다.
+        /// 모듈 `SwitGrapImport.name`이 어디서 비롯된 것인지 결정할 수 없습니다.
         case other
     }
 
