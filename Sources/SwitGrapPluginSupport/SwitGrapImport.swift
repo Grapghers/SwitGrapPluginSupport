@@ -1,7 +1,7 @@
 import Foundation
 
 /// `import X`를 설명합니다.
-public struct SwitGrapherImport {
+public struct SwitGrapImport {
 
     /// 가져온 모듈의 유형입니다.
     public enum ModuleType {
