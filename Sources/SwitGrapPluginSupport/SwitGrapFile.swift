@@ -5,7 +5,8 @@ public struct SwitGrapFile {
 
     /// 파일의 원본을 설명합니다.
     public enum Origin {
-        /// 파일은 xcgrapher 실행 파일의 주 타겟에서 비롯되었습니다.
+        
+        /// 파일은 switGrap 실행 파일의 주 타겟에서 비롯되었습니다.
         case target(name: String)
 
         /// 파일은 `importName`이라는 Swift 패키지 모듈에서 왔습니다.

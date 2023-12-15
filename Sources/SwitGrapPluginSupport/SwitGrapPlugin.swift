@@ -1,6 +1,6 @@
 import Foundation
 
-/// 동적으로 로드 가능한 `xcgrapher` 플러그인의 인터페이스
+/// 동적으로 로드 가능한 `switGrap` 플러그인의 인터페이스
 open class SwitGrapPlugin {
 
     // 처리 함수에서 생성된 객체는 어떤 것이든 될 수 있으며 makeArrows(from:) 함수에서 반환됩니다.
@@ -20,8 +20,8 @@ open class SwitGrapPlugin {
         []
     }
 
-    /// `process(file:)` 및 `process(library:)`의 결과에서 `XCGrapherArrow` 목록을 생성합니다.
-    /// 중복된 `XCGrapherArrow`는 자동으로 제거됩니다.
+    /// `process(file:)` 및 `process(library:)`의 결과에서 `SwitGrapArrow` 목록을 생성합니다.
+    /// 중복된 `SwitGrapArrow`는 자동으로 제거됩니다.
     open func makeArrows(from processResults: [Any]) throws -> [SwitGrapArrow] {
         []
     }

@@ -9,7 +9,7 @@ public struct SwitGrapArrow: Hashable {
     /// 에지가 가리키는 그래프 노드의 이름입니다.
     public let destination: String
 
-    /// 에지의 색상입니다. 예: `#FF0000`
+    /// 에지의 색상입니다.
     public let color: String
 
     public init(origin: String, destination: String, color: String = "#000000") {
